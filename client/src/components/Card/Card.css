@@ -1,0 +1,26 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    width: 800px;
+    height: 80px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 2px;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.cardContainer:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #e3ffe7 0%, #a7c7ff 100%);
+    width: 850px;
+    height: 90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 2px;
+    font-size: 25px;
+}
